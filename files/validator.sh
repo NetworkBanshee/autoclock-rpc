@@ -16,7 +16,11 @@ exec /mnt/solana/target/release/solana-validator \
 --private-rpc \
 --rpc-bind-address 0.0.0.0 \
 --enable-cpi-and-log-storage \
+#--enable-accounts-disk-index \
+
 --account-index program-id \
+--account-index spl-token-owner \
+--account-index spl-token-mint \
 --enable-rpc-transaction-history \
 --no-duplicate-instance-check \
 --wal-recovery-mode skip_any_corrupted_record \
@@ -32,6 +36,7 @@ exec /mnt/solana/target/release/solana-validator \
 --full-rpc-api \
 --accounts-index-memory-limit-mb 350 \
 --account-index-exclude-key kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6 \
+--account-index-exclude-key metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s \
 --tpu-use-quic \
 --known-validator PUmpKiNnSVAZ3w4KaFX6jKSjXUNHFShGkXbERo54xjb \
 --known-validator Ninja1spj6n9t5hVYgF3PdnYz2PLnkt7rvaw3firmjs \
