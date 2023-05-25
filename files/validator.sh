@@ -21,7 +21,6 @@ exec /mnt/solana/target/release/solana-validator \
 --account-index spl-token-owner \
 --account-index spl-token-mint \
 --enable-rpc-transaction-history \
---no-duplicate-instance-check \
 --wal-recovery-mode skip_any_corrupted_record \
 --log /mnt/logs/solana-validator.log \
 --accounts /mnt/solana-accounts \
