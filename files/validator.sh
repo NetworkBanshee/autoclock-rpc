@@ -15,8 +15,7 @@ exec /mnt/solana/target/release/solana-validator \
 --no-voting \
 --private-rpc \
 --rpc-bind-address 0.0.0.0 \
---enable-extended-tx-metadata-storage \
---enable-accounts-disk-index \
+--enable-cpi-and-log-storage \
 --account-index program-id \
 --account-index spl-token-owner \
 --account-index spl-token-mint \
