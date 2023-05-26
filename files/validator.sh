@@ -16,6 +16,7 @@ exec /mnt/solana/target/release/solana-validator \
 --private-rpc \
 --rpc-bind-address 0.0.0.0 \
 --enable-cpi-and-log-storage \
+--enable-accounts-disk-index \
 --account-index program-id \
 --account-index spl-token-owner \
 --account-index spl-token-mint \
@@ -36,10 +37,7 @@ exec /mnt/solana/target/release/solana-validator \
 --account-index-exclude-key kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6 \
 --account-index-exclude-key metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s \
 --tpu-use-quic \
---known-validator PUmpKiNnSVAZ3w4KaFX6jKSjXUNHFShGkXbERo54xjb \
---known-validator Ninja1spj6n9t5hVYgF3PdnYz2PLnkt7rvaw3firmjs \
---known-validator CXPeim1wQMkcTvEHx9QdhgKREYYJD8bnaCCqPRwJ1to1 \
---known-validator A4hyMd3FyvUJSRafDUSwtLLaQcxRP4r1BRC9w2AJ1to2 \
---known-validator 23U4mgK9DMCxsv2StC4y2qAptP25Xv5b2cybKCeJ1to3 \
---known-validator Ei8VLKR3chZAhJzWwj8PopeuedpQiths2ovVCQ2BCvK7 \
+--known-validator DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy \
+--known-validator EgxVyTgh2Msg781wt9EsqYx4fW8wSvfFAHGLaJQjghiL \
+--known-validator c3rtoMCHSbFrLRTAdw4iRowKSn4BrDtvSPbuyJwkHwx \
 --known-validator DiGifdKABxzru2KsjN3YkZZmWP9mVMYK8HWadjtPtJit
