@@ -37,6 +37,7 @@ exec /mnt/solana/target/release/solana-validator \
 --account-index-exclude-key kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6 \
 --account-index-exclude-key metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s \
 --tpu-use-quic \
+--only-known-rpc \
 --known-validator DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy \
 --known-validator EgxVyTgh2Msg781wt9EsqYx4fW8wSvfFAHGLaJQjghiL \
 --known-validator c3rtoMCHSbFrLRTAdw4iRowKSn4BrDtvSPbuyJwkHwx \
