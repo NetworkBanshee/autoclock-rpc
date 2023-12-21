@@ -18,7 +18,6 @@ exec /mnt/solana/target/release/solana-validator \
 --enable-cpi-and-log-storage \
 --account-index program-id \
 --enable-rpc-transaction-history \
---no-duplicate-instance-check \
 --wal-recovery-mode skip_any_corrupted_record \
 --log /mnt/logs/solana-validator.log \
 --accounts /mnt/solana-accounts \
@@ -35,6 +34,3 @@ exec /mnt/solana/target/release/solana-validator \
 --account-index-exclude-key metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s \
 --tpu-use-quic \
 --known-validator 8fp2i8jhVcspsXUcHMQAnfQknT9nmuxFASdv6kV2FkwU \
---known-validator GwHH8ciFhR8vejWCqmg8FWZUCNtubPY2esALvy5tBvji \
---known-validator CVRr5oHCAAooVbYze7CvXtRp4FUtkMCSqBZU7MVu8v8e \
---known-validator CXPeim1wQMkcTvEHx9QdhgKREYYJD8bnaCCqPRwJ1to1
