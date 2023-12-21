@@ -24,7 +24,7 @@ parser.add_argument('-r', '--rpc_address',
          'https://api.mainnet-beta.solana.com')
 
 parser.add_argument('--max_snapshot_age', default=1300, type=int, help='How many slots ago the snapshot was created (in slots)')
-parser.add_argument('--min_download_speed', default=60, type=int, help='Minimum average snapshot download speed in megabytes')
+parser.add_argument('--min_download_speed', default=15, type=int, help='Minimum average snapshot download speed in megabytes')
 parser.add_argument('--max_download_speed', type=int, 
 help='Maximum snapshot download speed in megabytes - https://github.com/c29r3/solana-snapshot-finder/issues/11. Example: --max_download_speed 192')
 parser.add_argument('--max_latency', default=40, type=int, help='The maximum value of latency (milliseconds). If latency > max_latency --> skip')
