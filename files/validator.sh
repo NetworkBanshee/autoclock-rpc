@@ -9,7 +9,6 @@ exec /mnt/solana/target/release/solana-validator \
 --entrypoint entrypoint5.mainnet-beta.solana.com:8001 \
 --rpc-port 8899 \
 --dynamic-port-range 8002-8099 \
---no-port-check \
 --only-known-rpc \
 --gossip-port 8001 \
 --no-voting \
