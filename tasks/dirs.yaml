@@ -10,7 +10,7 @@
 
 - name: solana snapshots
   file:
-    path: /mnt/solana-snapshots
+    path: /mnt/solana-accounts/snapshots
     state: directory
     owner: solana
     group: solana
