@@ -11,7 +11,6 @@ exec /mnt/solana/target/release/solana-validator \
 --dynamic-port-range 8002-8099 \
 --no-port-check \
 --gossip-port 8001 \
---no-untrusted-rpc \
 --no-voting \
 --private-rpc \
 --rpc-bind-address 0.0.0.0 \
@@ -23,7 +22,6 @@ exec /mnt/solana/target/release/solana-validator \
 --accounts /mnt/solana-accounts \
 --ledger /mnt/solana-ledger \
 --snapshots /mnt/solana-snapshots \
---no-snapshot-fetch \
 --limit-ledger-size 400000000 \
 --rpc-send-default-max-retries 3 \
 --rpc-send-service-max-retries 3 \
@@ -31,6 +29,5 @@ exec /mnt/solana/target/release/solana-validator \
 --full-rpc-api \
 --accounts-index-memory-limit-mb 350 \
 --account-index-exclude-key kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6 \
---account-index-exclude-key metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s \
 --tpu-use-quic \
---known-validator 8fp2i8jhVcspsXUcHMQAnfQknT9nmuxFASdv6kV2FkwU \
+--known-validator 7qf8xDhtzb4ctRUyJB6eaUXPn69wnx8A8pQVxYejaTLV \
