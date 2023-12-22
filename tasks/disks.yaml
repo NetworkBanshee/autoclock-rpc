@@ -38,7 +38,7 @@
   shell: mkfs.ext4 /dev/{{ account_disk }}
   when: mount_mnt.rc != 0
 
-- name: mount disks for ledger
+- name: mount disks for accounts
   become: true
   become_user: root
   shell: mount /dev/{{ account_disk }} /mnt/solana-accounts && chown -R solana:solana /mnt/solana-accounts
